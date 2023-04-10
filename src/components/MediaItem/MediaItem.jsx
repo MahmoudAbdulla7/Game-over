@@ -37,7 +37,7 @@ export default function MediaItem({el}) {
 
  </div>
  </Link>
-</div> : <div className="col-lg-4 col-6 col-sm-6 col-xl-3 my-2"> <Loading/></div>  }
+</div> : <div className="col-lg-4 col-6 col-sm-6 my-2"> <Loading/></div>  }
   
   </>
 }
