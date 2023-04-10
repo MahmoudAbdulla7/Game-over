@@ -42,7 +42,7 @@ let router = createBrowserRouter([{
     {path:'category/:type',element: <ProtectedRoute userData={userData}><Category/></ProtectedRoute>},
     {path:'sort-by/:type',element: <ProtectedRoute userData={userData}><SortBy/></ProtectedRoute>},
     {path:'itemDetails/:id',element: <ProtectedRoute userData={userData}><ItemDetails/></ProtectedRoute>},
-    {path:'/',element: <ProtectedRoute userData={userData}><Home/></ProtectedRoute>}
+    {path:'/Game-over',element: <ProtectedRoute userData={userData}><Home/></ProtectedRoute>}
   ]
 }])
 
